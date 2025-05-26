@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniQuiz Lógica</title>
+</head>
+<body>
+    <div id="quiz-container">
+        <h2 id="question">UniQuiz</h2>
+        <div id="answers">
+            </div>
+        <button id="next-button">Próxima</button>
+        <div id="result" style="display: none;">
+            Sua pontuação: <span id="score"></span>
+        </div>
+    </div>
+<!--O que este código faz:
+
+HTML: Define a estrutura básica do quiz, com um contêiner para a pergunta, as opções de resposta, um botão "Próxima" e uma área para exibir o resultado.
+JavaScript:
+Define um array questions com as perguntas, suas opções e a resposta correta.
+loadQuestion(): Exibe a pergunta atual e cria botões para cada opção de resposta.
+checkAnswer(): Verifica se a resposta selecionada está correta, atualiza a pontuação e destaca a resposta correta/incorreta.
+nextQuestion(): Carrega a próxima pergunta ou exibe o resultado final.
+showResult(): Oculta o quiz e mostra a pontuação final.
+Adiciona um event listener ao botão "Próxima" para avançar para a próxima pergunta.
+Carrega a primeira pergunta quando a página é carregada.
+Você pode adicionar mais perguntas ao array questions.
+
+Quer adicionar alguma funcionalidade específica a este quiz? Podemos incluir coisas como:
+
+Estilização com CSS
+Um cronômetro
+Feedback imediato (certo ou errado)
+Um botão para reiniciar o quiz
+Me diga o que você gostaria de fazer a seguir!-->
+    <script src="script.js"></script>
+</body>
+</html>
