@@ -7,19 +7,19 @@ const pontuacaoQuiz = document.getElementById("pontuacaoUniQuiz");
 
 const questoes = [
     {
-        questao: "Qual a capital da França?",
-        opcoes: ["Londres", "Paris", "Roma", "Berlim"],
-        respostaCorreta: "Paris"
+        questao: "Qual a quadrada de 25?",
+        opcoes: ["4", "5", "10", "6"],
+        respostaCorreta: "5"
     },
     {
-        questao: "Quanto é 2 + 2?",
-        opcoes: ["3", "4", "5", "6"],
-        respostaCorreta: "4"
+        questao: "Quanto é 3 x 3 x 3?",
+        opcoes: ["23", "26", "9", "27"],
+        respostaCorreta: "27"
     },
     {
-        questao: "Qual é a cor do céu em um dia claro?",
-        opcoes: ["Vermelho", "Verde", "Azul", "Amarelo"],
-        respostaCorreta: "Azul"
+        questao: "Qual o símbolo matemático da soma?",
+        opcoes: ["x", "+", "-", "."],
+        respostaCorreta: "+"
     }
 ];
 
