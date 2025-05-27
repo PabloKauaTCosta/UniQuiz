@@ -7,7 +7,7 @@ const pontuacaoQuiz = document.getElementById("pontuacaoUniQuiz");
 
 const questoes = [
     {
-        questao: "Qual a quadrada de 25?",
+        questao: "Qual a raíz quadrada de 25?",
         opcoes: ["4", "5", "10", "6"],
         respostaCorreta: "5"
     },
