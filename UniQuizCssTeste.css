@@ -35,6 +35,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    font-weight: bold;
 }
 .answer-btn:hover {
     background-color: #0056b3;
@@ -49,7 +50,7 @@ body {
     cursor: not-allowed;
     opacity: 0.7;
 }
-#nextButton {
+#botaoProximo {
     background-color: #6c757d;
     color: white;
     border: none;
@@ -60,14 +61,10 @@ body {
     margin-top: 20px;
     display: none;
 }
-#nextButton:hover {
+#botaoProximo:hover {
     background-color: #5a6268;
 }
 #resultadoUniQuiz {
     font-size: 20px;
     color: #333;
-}
-#pontuacaoUniQuiz {
-    font-weight: bold;
-    color: #007bff;
 }
