@@ -1,7 +1,7 @@
 const caixaUniQuiz = document.getElementById("caixaUniQuiz");
 const perguntaUniQuiz = document.getElementById("questaoUniQuiz");
 const opcoesRespostas = document.getElementById("opcoesRespostas"); 
-const nextButton = document.getElementById("nextButton"); 
+const botaoProximo = document.getElementById("botaoProximo"); 
 const resultadoQuiz = document.getElementById("resultadoUniQuiz");
 const pontuacaoQuiz = document.getElementById("pontuacaoUniQuiz");
 
@@ -29,7 +29,7 @@ let pontuacao = 0;
 function carregarQuestao() {
     resultadoQuiz.style.display = "none";
     caixaUniQuiz.style.display = "block"; 
-    nextButton.style.display = "none";
+    botaoProximo.style.display = "none";
     
     const questaoAtual = questoes[indiceQuestaoAtual];
     perguntaUniQuiz.textContent = questaoAtual.questao;
@@ -62,7 +62,7 @@ function verificarResposta(respostaSelecionada) {
         pontuacao++;
     }
 
-    nextButton.style.display = "block";
+    botaoProximo.style.display = "block";
 }
 
 function proximaQuestao() {
@@ -80,5 +80,5 @@ function mostrarResultado() {
     pontuacaoQuiz.textContent = `${pontuacao} de ${questoes.length}`;
 }
 
-nextButton.addEventListener("click", proximaQuestao);
+botaoProximo.addEventListener("click", proximaQuestao);
 document.addEventListener("DOMContentLoaded", carregarQuestao);
